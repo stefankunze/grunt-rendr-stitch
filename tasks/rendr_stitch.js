@@ -10,7 +10,8 @@
 
 var path = require('path'),
     stitch = require('stitch'),
-    async = require('async');
+    async = require('async'),
+    lodash = require('lodash');
 
 // Require CoffeeScript for ability to package CS files.
 require('coffee-script');

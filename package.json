@@ -1,7 +1,7 @@
 {
   "name": "grunt-rendr-stitch",
   "description": "Use Stitch to package up your modules for use with Rendr (<https://github.com/airbnb/rendr>).",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "homepage": "https://github.com/airbnb/grunt-rendr-stitch",
   "author": {
     "name": "Spike Brehm",
@@ -30,7 +30,8 @@
   "dependencies": {
     "stitch": "git://github.com/joeyespo/stitch#2e4e6cdb2be204740ca341da787aaac00d347721",
     "coffee-script": "~1.6.2",
-    "async": "~0.2.9"
+    "async": "~0.2.9",
+    "lodash": "~4"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
@@ -39,7 +40,7 @@
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~1.0"
   },
   "keywords": [
     "gruntplugin"
